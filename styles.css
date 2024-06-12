@@ -112,10 +112,10 @@ body {
   position: relative;
   height: 100vh;
 }
-.logo img {
-  width: 15%;
-}
-
+            .logo img {
+              width: 15%;
+            }
+          
 .header::before {
   position: absolute;
   content: "";
@@ -127,7 +127,7 @@ body {
       rgba(255, 255, 255, 0),
       var(--primary-color)
     ),
-    url("https://img.freepik.com/premium-photo/multiracial-colleagues-discussing-video-call_832510-10524.jpg?w=740");
+    url("/assets/background.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
